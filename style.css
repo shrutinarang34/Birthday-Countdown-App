@@ -1,0 +1,77 @@
+body {
+  background: linear-gradient(to bottom, #1a1518, #1a1518);
+  background-color: #f0e3e3;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+.countdown {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.timer {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0 15px 0;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.timer div {
+  width: 80px;
+  height: 80px;
+  background-color: #cf1767;
+  color: #fff;
+  font-size: 40px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+form input {
+  font-size: 24px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+form button {
+  font-size: 24px;
+  padding: 10px;
+  background-color: #cf1767;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.Print {
+  font-size: 24px;
+  color: #cf1767;
+  font-weight: bolder;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  text-align: center;
+  margin: 0 0 30px 10px;
+  align-items: center;
+}
+
